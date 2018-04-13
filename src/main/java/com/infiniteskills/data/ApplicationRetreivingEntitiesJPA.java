@@ -16,7 +16,7 @@ import com.infiniteskills.data.entities.Credential;
 import com.infiniteskills.data.entities.Transaction;
 import com.infiniteskills.data.entities.User;
 
-public class ApplicationRetrievingEntities {
+public class ApplicationRetreivingEntitiesJPA {
 	
 	public static void main(String[] args) {
    		
