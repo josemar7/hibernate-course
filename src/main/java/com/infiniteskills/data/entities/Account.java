@@ -31,6 +31,8 @@ public class Account {
 	@Column(name = "ACCOUNT_ID")
 	private Long accountId;
 	
+	private String newField;
+	
 	@ManyToMany(cascade=CascadeType.ALL)
 	@JoinTable(name="user_account", joinColumns=@JoinColumn(name="ACCOUNT_ID"),
 			inverseJoinColumns=@JoinColumn(name="USER_ID"))
